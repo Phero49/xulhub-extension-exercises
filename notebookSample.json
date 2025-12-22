@@ -1,0 +1,1592 @@
+[
+    {
+        "cellType": "question",
+        "contents": [
+            {
+                "contentType": "text",
+                "data": {
+                    "text": "What is the primary purpose of the <b><i>v-model</i></b> directive in Vue?<div><br></div>"
+                }
+            },
+            {
+                "contentType": "multiple choice options",
+                "data": [
+                    {
+                        "label": "A",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": " Bind data to an input element"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "label": "B",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": " Create computed properties"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "label": "C",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": "Render conditional content"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "label": "D",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": " Handle event listeners"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "contentType": "text",
+                "data": {
+                    "text": ""
+                }
+            }
+        ],
+        "label": "1",
+        "refs": null
+    },
+    {
+        "cellType": "notes",
+        "contents": [
+            {
+                "contentType": "text",
+                "data": {
+                    "text": "exercise&nbsp; 3.3"
+                }
+            }
+        ],
+        "label": "-1",
+        "refs": null
+    },
+    {
+        "cellType": "question",
+        "contents": [
+            {
+                "contentType": "text",
+                "data": {
+                    "text": " Which of the following is a correct way to create a computed property in Vue?"
+                }
+            },
+            {
+                "contentType": "multiple choice options",
+                "data": [
+                    {
+                        "label": "A",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": "computed: { myComputedProperty: function() { return this.value * 2; } }"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "label": "B",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": "methods: { myComputedProperty: function() { return this.value * 2; } }"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "label": "C",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": "data: { myComputedProperty: this.value * 2 }"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "label": "D",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": "props: { myComputedProperty: this.value * 2 }"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "contentType": "text",
+                "data": {
+                    "text": ""
+                }
+            }
+        ],
+        "label": "2",
+        "refs": null
+    },
+    {
+        "cellType": "question",
+        "contents": [
+            {
+                "contentType": "text",
+                "data": {
+                    "text": " What is the difference between a component and a mixin in Vue?"
+                }
+            },
+            {
+                "contentType": "multiple choice options",
+                "data": [
+                    {
+                        "label": "A",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": "Components are reusable UI elements, while mixins are reusable functions"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "label": "B",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": "Components are reusable functions, while mixins are reusable UI elements."
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "label": "C",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": " Components are global, while mixins are local."
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "label": "D",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": "Components are local, while mixins are global"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "contentType": "text",
+                "data": {
+                    "text": ""
+                }
+            }
+        ],
+        "label": "3",
+        "refs": null
+    },
+    {
+        "cellType": "question",
+        "contents": [
+            {
+                "contentType": "text",
+                "data": {
+                    "text": "How do you pass data from a parent component to a child component in Vue?"
+                }
+            },
+            {
+                "contentType": "multiple choice options",
+                "data": [
+                    {
+                        "label": "A",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": "Using v-bind"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "label": "B",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": "Using v-model"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "label": "C",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": " Using props"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "label": "D",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": "Using events"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "contentType": "text",
+                "data": {
+                    "text": ""
+                }
+            }
+        ],
+        "label": "4",
+        "refs": null
+    },
+    {
+        "cellType": "question",
+        "contents": [
+            {
+                "contentType": "text",
+                "data": {
+                    "text": "How do you emit an event from a child component to a parent component in Vue?"
+                }
+            },
+            {
+                "contentType": "multiple choice options",
+                "data": [
+                    {
+                        "label": "A",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": " Using $emit"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "label": "B",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": "Using $on"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "label": "C",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": "Using $watch"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "label": "D",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": "Using $nextTick"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "contentType": "text",
+                "data": {
+                    "text": ""
+                }
+            }
+        ],
+        "label": "5",
+        "refs": null
+    },
+    {
+        "cellType": "question",
+        "contents": [
+            {
+                "contentType": "text",
+                "data": {
+                    "text": " Which lifecycle hook is called immediately after a component is created?"
+                }
+            },
+            {
+                "contentType": "multiple choice options",
+                "data": [
+                    {
+                        "label": "A",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": "created"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "label": "B",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": "mounted"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "label": "C",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": "updated"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "label": "D",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": "beforeDestroy"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "contentType": "text",
+                "data": {
+                    "text": ""
+                }
+            }
+        ],
+        "label": "6",
+        "refs": null
+    },
+    {
+        "cellType": "question",
+        "contents": [
+            {
+                "contentType": "text",
+                "data": {
+                    "text": "Which lifecycle hook is called when a component is about to be removed from the DOM?"
+                }
+            },
+            {
+                "contentType": "multiple choice options",
+                "data": [
+                    {
+                        "label": "A",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": "created"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "label": "B",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": "mounted"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "label": "C",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": "updated"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "label": "D",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": "beforeDestroy"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "contentType": "text",
+                "data": {
+                    "text": ""
+                }
+            }
+        ],
+        "label": "7",
+        "refs": null
+    },
+    {
+        "cellType": "question",
+        "contents": [
+            {
+                "contentType": "text",
+                "data": {
+                    "text": "When is the updated lifecycle hook called?"
+                }
+            },
+            {
+                "contentType": "multiple choice options",
+                "data": [
+                    {
+                        "label": "A",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": "After a component's initial render"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "label": "B",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": "After a component's data or props have been updated"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "label": "C",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": "Before a component is destroyed"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "label": "D",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": "After a component is mounted"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "contentType": "text",
+                "data": {
+                    "text": ""
+                }
+            }
+        ],
+        "label": "8",
+        "refs": null
+    },
+    {
+        "cellType": "question",
+        "contents": [
+            {
+                "contentType": "text",
+                "data": {
+                    "text": "What is the purpose of the v-if directive in Vue?"
+                }
+            },
+            {
+                "contentType": "multiple choice options",
+                "data": [
+                    {
+                        "label": "A",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": "Render conditional content"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "label": "B",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": "Bind data to an input element"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "label": "C",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": "Create computed properties"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "label": "D",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": "Handle event listeners"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "contentType": "text",
+                "data": {
+                    "text": ""
+                }
+            }
+        ],
+        "label": "9",
+        "refs": null
+    },
+    {
+        "cellType": "question",
+        "contents": [
+            {
+                "contentType": "text",
+                "data": {
+                    "text": "What is the difference between v-if and v-show "
+                }
+            },
+            {
+                "contentType": "multiple choice options",
+                "data": [
+                    {
+                        "label": "A",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": "v-if removes the element from the DOM, while v-show hides it with CSS"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "label": "B",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": "v-if hides the element with CSS, while v-show removes it from the DOM"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "label": "C",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": "Both directives remove the element from the DOM."
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "label": "D",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": "Both directives hide the element with CSS."
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "contentType": "text",
+                "data": {
+                    "text": ""
+                }
+            }
+        ],
+        "label": "10",
+        "refs": null
+    },
+    {
+        "cellType": "question",
+        "contents": [
+            {
+                "contentType": "text",
+                "data": {
+                    "text": "What is the purpose of the v-for directive in Vue?"
+                }
+            },
+            {
+                "contentType": "multiple choice options",
+                "data": [
+                    {
+                        "label": "A",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": "Render conditional content"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "label": "B",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": "Bind data to an input element"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "label": "C",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": "Create computed properties"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "label": "D",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": " Iterate over an array or object"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "contentType": "text",
+                "data": {
+                    "text": ""
+                }
+            }
+        ],
+        "label": "11",
+        "refs": null
+    },
+    {
+        "cellType": "question",
+        "contents": [
+            {
+                "contentType": "text",
+                "data": {
+                    "text": "How do you access the current index of an item in a v-for loop"
+                }
+            },
+            {
+                "contentType": "multiple choice options",
+                "data": [
+                    {
+                        "label": "A",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": "Using the index property"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "label": "B",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": "Using the key property"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "label": "C",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": "Using the item property"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "label": "D",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": "Using the $index property"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "contentType": "text",
+                "data": {
+                    "text": ""
+                }
+            }
+        ],
+        "label": "12",
+        "refs": null
+    },
+    {
+        "cellType": "question",
+        "contents": [
+            {
+                "contentType": "text",
+                "data": {
+                    "text": "How do you declare data properties in a Vue component?"
+                }
+            },
+            {
+                "contentType": "multiple choice options",
+                "data": [
+                    {
+                        "label": "A",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": "In the data option"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "label": "B",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": "In the methods option"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "label": "C",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": "In the computed option"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "label": "D",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": " In the props option"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "contentType": "text",
+                "data": {
+                    "text": ""
+                }
+            }
+        ],
+        "label": "13",
+        "refs": null
+    },
+    {
+        "cellType": "question",
+        "contents": [
+            {
+                "contentType": "text",
+                "data": {
+                    "text": "What is the purpose of the props option in a Vue component?"
+                }
+            },
+            {
+                "contentType": "multiple choice options",
+                "data": [
+                    {
+                        "label": "A",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": " To define data properties"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "label": "B",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": "To define computed properties"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "label": "C",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": "To define methods"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "label": "D",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": "To define properties that can be passed to the component from its parent"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "contentType": "text",
+                "data": {
+                    "text": ""
+                }
+            }
+        ],
+        "label": "14",
+        "refs": null
+    },
+    {
+        "cellType": "question",
+        "contents": [
+            {
+                "contentType": "text",
+                "data": {
+                    "text": "How do you validate props in a Vue component?"
+                }
+            },
+            {
+                "contentType": "multiple choice options",
+                "data": [
+                    {
+                        "label": "A",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": "Using the validate option"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "label": "B",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": "Using the validator option"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "label": "C",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": "In the computed option"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "label": "D",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": " In the props option"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "contentType": "text",
+                "data": {
+                    "text": ""
+                }
+            }
+        ],
+        "label": "15",
+        "refs": null
+    },
+    {
+        "cellType": "question",
+        "contents": [
+            {
+                "contentType": "text",
+                "data": {
+                    "text": "How do you handle events in Vue?&nbsp;"
+                }
+            },
+            {
+                "contentType": "multiple choice options",
+                "data": [
+                    {
+                        "label": "A",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": "Using the v-on directive"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "label": "B",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": "Using the v-model directive"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "label": "C",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": " Using the v-if directive"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "label": "D",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": " Using the v-for directive"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "contentType": "text",
+                "data": {
+                    "text": ""
+                }
+            }
+        ],
+        "label": "16",
+        "refs": null
+    },
+    {
+        "cellType": "question",
+        "contents": [
+            {
+                "contentType": "text",
+                "data": {
+                    "text": "How do you pass arguments to event handlers in Vue?"
+                }
+            },
+            {
+                "contentType": "multiple choice options",
+                "data": [
+                    {
+                        "label": "A",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": "To create components in a Vue application"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "label": "B",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": "To handle routing in a Vue application"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "label": "C",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": "To create components in a Vue application"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "label": "D",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": "To manage data in a Vue application"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "contentType": "text",
+                "data": {
+                    "text": ""
+                }
+            }
+        ],
+        "label": "17",
+        "refs": null
+    },
+    {
+        "cellType": "question",
+        "contents": [
+            {
+                "contentType": "text",
+                "data": {
+                    "text": "What is the purpose of Vue Router?"
+                }
+            },
+            {
+                "contentType": "multiple choice options",
+                "data": [
+                    {
+                        "label": "A",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": "Using the routes option"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "label": "B",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": " Using the components option"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "label": "C",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": " Using the methods option"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "label": "D",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": "Using the data option"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "contentType": "text",
+                "data": {
+                    "text": ""
+                }
+            }
+        ],
+        "label": "18",
+        "refs": null
+    },
+    {
+        "cellType": "question",
+        "contents": [
+            {
+                "contentType": "text",
+                "data": {
+                    "text": "How do you define routes in Vue Router?"
+                }
+            },
+            {
+                "contentType": "multiple choice options",
+                "data": [
+                    {
+                        "label": "A",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": "Using the $router object"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "label": "B",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": " Using the $route object"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "label": "C",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": "Using the $emit method"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "label": "D",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": " Using the $on method"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "contentType": "text",
+                "data": {
+                    "text": ""
+                }
+            }
+        ],
+        "label": "19",
+        "refs": null
+    },
+    {
+        "cellType": "question",
+        "contents": [
+            {
+                "contentType": "text",
+                "data": {
+                    "text": "How do you navigate to a specific route in Vue Router ?"
+                }
+            },
+            {
+                "contentType": "multiple choice options",
+                "data": [
+                    {
+                        "label": "A",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": "Using the $router object"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "label": "B",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": " Using the $route object"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "label": "C",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": "Using the $emit method"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "label": "D",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": "Using the $on method"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "contentType": "text",
+                "data": {
+                    "text": ""
+                }
+            }
+        ],
+        "label": "20",
+        "refs": null
+    },
+    {
+        "cellType": "question",
+        "contents": [
+            {
+                "contentType": "text",
+                "data": {
+                    "text": " What is Vuex?"
+                }
+            },
+            {
+                "contentType": "multiple choice options",
+                "data": [
+                    {
+                        "label": "A",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": " A state management library for Vue"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "label": "B",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": " A routing library for Vue"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "label": "C",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": " A component library for Vue"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "label": "D",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": "A testing library for Vue"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "contentType": "text",
+                "data": {
+                    "text": ""
+                }
+            }
+        ],
+        "label": "21",
+        "refs": null
+    },
+    {
+        "cellType": "question",
+        "contents": [
+            {
+                "contentType": "text",
+                "data": {
+                    "text": "How do you create a Vuex store?"
+                }
+            },
+            {
+                "contentType": "multiple choice options",
+                "data": [
+                    {
+                        "label": "A",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": " By creating a new Vue instance"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "label": "B",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": "By creating a new Vuex instance"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "label": "C",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": " By using the store option in a Vue component"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "label": "D",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": "By using the router option in a Vue component"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "contentType": "text",
+                "data": {
+                    "text": ""
+                }
+            }
+        ],
+        "label": "22",
+        "refs": null
+    },
+    {
+        "cellType": "question",
+        "contents": [
+            {
+                "contentType": "text",
+                "data": {
+                    "text": "How do you access the Vuex store in a component?"
+                }
+            },
+            {
+                "contentType": "multiple choice options",
+                "data": [
+                    {
+                        "label": "A",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": "By using the $store property"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "label": "B",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": "By using the $router property"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "label": "C",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": "By using the $emit method"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "label": "D",
+                        "optionContent": [
+                            {
+                                "contentType": "text",
+                                "data": {
+                                    "text": "By using the $on method"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "contentType": "text",
+                "data": {
+                    "text": ""
+                }
+            }
+        ],
+        "label": "23",
+        "refs": null
+    },
+    {
+        "cellType": "notes",
+        "contents": [
+            {
+                "contentType": "text",
+                "data": {
+                    "text": ""
+                }
+            }
+        ],
+        "label": "-1",
+        "refs": null
+    }
+]

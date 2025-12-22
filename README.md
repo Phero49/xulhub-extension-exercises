@@ -1,0 +1,1 @@
+This mono repo contains interactive exercise using xulhub sdk to create xulhub extension

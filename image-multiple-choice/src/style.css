@@ -1,0 +1,91 @@
+/* Fonts */
+.noto-emoji- {
+  font-family: "Noto Emoji", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.agbalumo-regular {
+  font-family: "Agbalumo", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  font-family: "Agbalumo", system-ui;
+  margin: 0;
+  padding: 0;
+  background: #fefefe; /* default light bg */
+  color: #111; /* default light text */
+  transition: background 0.3s, color 0.3s;
+}
+
+/* Dark mode using media query */
+@media (prefers-color-scheme: dark) {
+  body {
+    background: inherit;
+    color: #eee;
+  }
+
+  .choice-card {
+    border-color: #333;
+    background: #1e1e1e;
+  }
+
+  .choice-card.selected {
+    border-color: #4a8fff;
+    background: #2a3b5f;
+  }
+
+  .choice-card:hover {
+    box-shadow: 0 5px 12px rgba(255, 255, 255, 0.1);
+  }
+}
+
+/* Flex helpers */
+.flex { display: flex; }
+.flex-row { flex-direction: row; }
+.flex-column { flex-direction: column; }
+.justify-start { justify-content: flex-start; }
+.justify-center { justify-content: center; }
+.justify-end { justify-content: flex-end; }
+.justify-between { justify-content: space-between; }
+.justify-around { justify-content: space-around; }
+.items-start { align-items: flex-start; }
+.items-center { align-items: center; }
+.items-end { align-items: flex-end; }
+.gap-sm { gap: 8px; }
+.gap-md { gap: 16px; }
+.gap-lg { gap: 24px; }
+
+/* Multiple-choice cards */
+.choice-card {
+  padding: 16px;
+  border: 2px solid #ddd;
+  border-radius: 14px;
+  background: #fff;
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.3s, border-color 0.3s;
+}
+
+.choice-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 12px rgba(0,0,0,0.12);
+}
+
+.choice-card.selected {
+  border-color: #4a8fff;
+  background: #e8f1ff;
+}
+
+.choice-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.text-center { text-align: center; }
+.question { font-size: 2rem; }
+
+
