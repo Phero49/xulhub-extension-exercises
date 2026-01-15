@@ -77,6 +77,7 @@ notebook.onReady(() => {
   }
 
   notebook.quizManager.verifyAnswer = verifyAnswer;
+  return 1
 });
 
 /* -----------------------------------
